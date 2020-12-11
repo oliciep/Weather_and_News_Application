@@ -1,0 +1,15 @@
+
+{
+  "covid": {
+    "area type": "nation",
+    "area name": "England"
+  },
+  "news": {
+    "api key": "54556da7367749bebb4d78fe571dd65a",
+    "country": "gb"
+  },
+  "weather": {
+    "api key": "25254f9ebb67e1cd28480d0af0cbe238",
+    "city": "Exeter"
+  }
+}

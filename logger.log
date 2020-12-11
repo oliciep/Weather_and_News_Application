@@ -1,0 +1,956 @@
+2020-12-11 00:44:04,135 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:44:04,301 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:44:04,313 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 00:44:04,406 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 00:44:04,410 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:44:04,636 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 00:44:04,641 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:44:04,841 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 00:44:04,855 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:44:05,014 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:44:05,104 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 00:44:14,301 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:44:14,494 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:44:14,576 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 00:44:14,636 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 00:44:14,643 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:44:14,745 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 00:44:14,752 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:44:14,848 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 00:44:14,857 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:44:15,099 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:44:15,188 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 00:45:38,200 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:45:38,374 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:45:38,385 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 00:45:38,432 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 00:45:38,437 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:45:38,676 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 00:45:38,682 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:45:38,883 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 00:45:38,896 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:45:39,143 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:45:39,226 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 00:46:03,184 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 00:46:03] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 00:46:12,065 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 00:46:12] "[37mGET /index?alarm=2020-12-11T00%3A47&two=hello HTTP/1.1[0m" 200 -
+2020-12-11 00:46:14,991 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 00:46:14] "[37mGET /index?alarm_item=hello HTTP/1.1[0m" 200 -
+2020-12-11 00:47:08,446 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:47:08,670 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:47:08,677 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 00:47:08,729 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 00:47:08,732 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:47:08,991 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 00:47:08,999 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:47:09,207 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 00:47:09,216 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:47:09,383 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:47:09,394 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 00:47:15,133 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 00:47:15] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 00:48:44,200 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 00:48:55,604 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 00:48:55] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 00:49:17,702 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:49:17,863 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:49:17,871 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 00:49:17,932 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 00:49:17,937 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:49:18,088 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 00:49:18,097 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:49:18,190 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 00:49:18,200 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:49:18,359 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:49:18,374 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 00:49:32,104 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 00:49:32] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 00:49:39,555 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 00:49:39] "[37mGET /index?alarm=2020-12-11T00%3A51&two=Dentist+ HTTP/1.1[0m" 200 -
+2020-12-11 00:49:41,765 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 00:49:41] "[37mGET /index?alarm_item=Dentist+ HTTP/1.1[0m" 200 -
+2020-12-11 00:49:55,756 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2020 00:49:55] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 00:58:07,752 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:58:07,968 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:58:08,052 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 00:58:08,184 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 00:58:08,190 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:58:08,415 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 00:58:08,426 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:58:08,643 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 00:58:08,656 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:58:08,909 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:58:08,998 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 00:58:18,054 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 00:58:18] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 00:58:26,032 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 00:58:26] "[37mGET /index?alarm=2020-12-11T00%3A02&two=Dentist+ HTTP/1.1[0m" 200 -
+2020-12-11 00:58:27,345 DEBUG comtypes Thread-3 : CoInitializeEx(None, 2)
+2020-12-11 00:58:27,403 INFO comtypes.client._code_cache Thread-3 : Imported existing <module 'comtypes.gen' from 'C:\\Users\\olive\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2020-12-11 00:58:27,403 INFO comtypes.client._code_cache Thread-3 : Using writeable comtypes cache directory: 'C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\comtypes\gen'
+2020-12-11 00:58:27,560 DEBUG comtypes.client Thread-3 : SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2020-12-11 00:58:27,561 DEBUG comtypes.client Thread-3 : CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2020-12-11 00:58:27,597 DEBUG comtypes.client Thread-3 : GetBestInterface(<POINTER(IUnknown) ptr=0x204240b0b40 at 20423eebdc0>)
+2020-12-11 00:58:27,598 DEBUG comtypes.client Thread-3 : Does implement IProvideClassInfo
+2020-12-11 00:58:27,601 DEBUG comtypes.client Thread-3 : Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2020-12-11 00:58:27,602 DEBUG comtypes Thread-3 : Release <POINTER(IUnknown) ptr=0x204240b0b80 at 20423f3c2c0>
+2020-12-11 00:58:27,603 DEBUG comtypes.client._generate Thread-3 : GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2020-12-11 00:58:27,603 DEBUG comtypes.client Thread-3 : Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2020-12-11 00:58:27,603 DEBUG comtypes.client Thread-3 : Final result is <POINTER(ISpeechVoice) ptr=0x204240b0b80 at 20423f3c340>
+2020-12-11 00:58:27,603 DEBUG comtypes Thread-3 : Release <POINTER(IProvideClassInfo) ptr=0x204240b0ba0 at 20423eebe40>
+2020-12-11 00:58:27,603 DEBUG comtypes Thread-3 : Release <POINTER(ITypeInfo) ptr=0x20422a07128 at 20423eebec0>
+2020-12-11 00:58:27,603 DEBUG comtypes Thread-3 : Release <POINTER(ITypeInfo) ptr=0x20422a07180 at 20423f3c0c0>
+2020-12-11 00:58:27,604 DEBUG comtypes Thread-3 : Release <POINTER(ITypeLib) ptr=0x20422b1a350 at 20423f3c2c0>
+2020-12-11 00:58:27,604 DEBUG comtypes Thread-3 : Release <POINTER(IUnknown) ptr=0x204240b0b40 at 20423eebdc0>
+2020-12-11 00:58:27,606 DEBUG comtypes.client._events Thread-3 : <POINTER(ISpeechVoice) ptr=0x204240b0b80 at 20423f3c340> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2020-12-11 00:58:27,606 DEBUG comtypes Thread-3 : Release <POINTER(IProvideClassInfo2) ptr=0x204240b0ba0 at 20423eebdc0>
+2020-12-11 00:58:27,607 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>: _ISpeechVoiceEvents.VoiceChange not implemented
+2020-12-11 00:58:27,607 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>: _ISpeechVoiceEvents.Bookmark not implemented
+2020-12-11 00:58:27,607 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>: _ISpeechVoiceEvents.Word not implemented
+2020-12-11 00:58:27,607 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>: _ISpeechVoiceEvents.Sentence not implemented
+2020-12-11 00:58:27,607 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>: _ISpeechVoiceEvents.Phoneme not implemented
+2020-12-11 00:58:27,607 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>: _ISpeechVoiceEvents.Viseme not implemented
+2020-12-11 00:58:27,608 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>: _ISpeechVoiceEvents.AudioLevel not implemented
+2020-12-11 00:58:27,608 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2020-12-11 00:58:27,608 DEBUG comtypes.client._events Thread-3 : Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2020-12-11 00:58:27,608 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2020-12-11 00:58:27,608 DEBUG comtypes._comobject Thread-3 : 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>
+2020-12-11 00:58:27,608 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 1
+2020-12-11 00:58:27,611 DEBUG comtypes Thread-3 : Release <POINTER(IConnectionPointContainer) ptr=0x204240b0ba8 at 20423f3c4c0>
+2020-12-11 00:58:27,698 DEBUG comtypes.client Thread-3 : wrap_outparam(<POINTER(ISpeechObjectToken) ptr=0x204240b63b0 at 20423f3c4c0>)
+2020-12-11 00:58:27,698 DEBUG comtypes Thread-3 : Release <POINTER(ISpeechObjectToken) ptr=0x204240b63b0 at 20423f3c4c0>
+2020-12-11 00:58:27,699 DEBUG comtypes.client Thread-3 : wrap_outparam(<POINTER(ISpeechObjectTokens) ptr=0x204240b70d0 at 20423f3c4c0>)
+2020-12-11 00:58:27,699 DEBUG comtypes Thread-3 : Release <POINTER(IUnknown) ptr=0x204240b8cf0 at 20423f3c640>
+2020-12-11 00:58:27,699 DEBUG comtypes.client Thread-3 : wrap_outparam(<POINTER(IDispatch) ptr=0x204240b8dd0 at 20423f3c6c0>)
+2020-12-11 00:58:27,699 DEBUG comtypes.client Thread-3 : GetBestInterface(<POINTER(IDispatch) ptr=0x204240b8dd0 at 20423f3c6c0>)
+2020-12-11 00:58:27,699 DEBUG comtypes.client Thread-3 : Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2020-12-11 00:58:27,700 DEBUG comtypes.client Thread-3 : Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2020-12-11 00:58:27,701 DEBUG comtypes Thread-3 : Release <POINTER(IUnknown) ptr=0x20422a07230 at 20423f3c940>
+2020-12-11 00:58:27,701 DEBUG comtypes.client Thread-3 : Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2020-12-11 00:58:27,701 DEBUG comtypes Thread-3 : Release <POINTER(IUnknown) ptr=0x204240b8dd0 at 20423f3cac0>
+2020-12-11 00:58:27,701 DEBUG comtypes.client._generate Thread-3 : GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2020-12-11 00:58:27,701 DEBUG comtypes.client Thread-3 : Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2020-12-11 00:58:27,702 DEBUG comtypes.client Thread-3 : Final result is <POINTER(ISpeechObjectToken) ptr=0x204240b8dd0 at 20423f3ca40>
+2020-12-11 00:58:27,702 DEBUG comtypes Thread-3 : Release <POINTER(IDispatch) ptr=0x204240b8dd0 at 20423f3c8c0>
+2020-12-11 00:58:27,702 DEBUG comtypes Thread-3 : Release <POINTER(ITypeInfo) ptr=0x20422a07230 at 20423f3c9c0>
+2020-12-11 00:58:27,702 DEBUG comtypes Thread-3 : Release <POINTER(ITypeLib) ptr=0x20422b1a350 at 20423f3cac0>
+2020-12-11 00:58:27,702 DEBUG comtypes Thread-3 : Release <POINTER(IDispatch) ptr=0x204240b8dd0 at 20423f3c6c0>
+2020-12-11 00:58:27,702 DEBUG comtypes Thread-3 : Release <POINTER(IEnumVARIANT) ptr=0x204240b8cf0 at 20423f3c5c0>
+2020-12-11 00:58:27,702 DEBUG comtypes Thread-3 : Release <POINTER(ISpeechObjectTokens) ptr=0x204240b70d0 at 20423f3c4c0>
+2020-12-11 00:58:27,702 DEBUG comtypes Thread-3 : Release <POINTER(ISpeechObjectToken) ptr=0x204240b8dd0 at 20423f3ca40>
+2020-12-11 00:58:30,507 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,508 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,508 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,508 DEBUG comtypes.client Thread-3 : wrap_outparam(<POINTER(IDispatch) ptr=0x204240b6210 at 20423f3c840>)
+2020-12-11 00:58:30,508 DEBUG comtypes.client Thread-3 : GetBestInterface(<POINTER(IDispatch) ptr=0x204240b6210 at 20423f3c840>)
+2020-12-11 00:58:30,509 DEBUG comtypes.client Thread-3 : Does NOT implement IProvideClassInfo, trying IProvideClassInfo2
+2020-12-11 00:58:30,509 DEBUG comtypes.client Thread-3 : Does NOT implement IProvideClassInfo/IProvideClassInfo2
+2020-12-11 00:58:30,509 DEBUG comtypes Thread-3 : Release <POINTER(IUnknown) ptr=0x20422a07230 at 20423f3c940>
+2020-12-11 00:58:30,509 DEBUG comtypes.client Thread-3 : Default interface is {C74A3ADC-B727-4500-A84A-B526721C8B8C}
+2020-12-11 00:58:30,509 DEBUG comtypes Thread-3 : Release <POINTER(IUnknown) ptr=0x204240b6210 at 20423f3ccc0>
+2020-12-11 00:58:30,510 DEBUG comtypes.client._generate Thread-3 : GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2020-12-11 00:58:30,510 DEBUG comtypes.client Thread-3 : Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechObjectToken'>
+2020-12-11 00:58:30,510 DEBUG comtypes.client Thread-3 : Final result is <POINTER(ISpeechObjectToken) ptr=0x204240b6210 at 20423f3cc40>
+2020-12-11 00:58:30,510 DEBUG comtypes Thread-3 : Release <POINTER(IDispatch) ptr=0x204240b6210 at 20423f3c8c0>
+2020-12-11 00:58:30,510 DEBUG comtypes Thread-3 : Release <POINTER(ITypeInfo) ptr=0x20422a07230 at 20423f3cbc0>
+2020-12-11 00:58:30,510 DEBUG comtypes Thread-3 : Release <POINTER(ITypeLib) ptr=0x20422b1a350 at 20423f3ccc0>
+2020-12-11 00:58:30,510 DEBUG comtypes Thread-3 : Release <POINTER(IDispatch) ptr=0x204240b6210 at 20423f3c840>
+2020-12-11 00:58:30,510 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_VoiceChange called
+2020-12-11 00:58:30,510 DEBUG comtypes Thread-3 : Release <POINTER(ISpeechObjectToken) ptr=0x204240b6210 at 20423f3cc40>
+2020-12-11 00:58:30,510 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,510 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,511 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Sentence called
+2020-12-11 00:58:30,511 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,511 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,511 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,511 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,511 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,511 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,511 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,511 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,511 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Word called
+2020-12-11 00:58:30,511 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,512 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,512 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,512 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,512 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,512 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,512 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,512 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,512 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,512 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,512 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,512 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,513 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,513 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,513 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,513 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,513 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,513 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,513 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,513 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,513 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,513 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,514 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,514 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,514 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,514 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,514 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,514 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,514 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,514 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,514 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,514 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,514 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Word called
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,515 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,516 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Word called
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,517 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,518 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,518 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,518 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,518 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,518 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,518 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,518 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,518 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,518 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Word called
+2020-12-11 00:58:30,518 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,518 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,519 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,519 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,519 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,519 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,519 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,519 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,519 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,519 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,519 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,519 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,520 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,520 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,520 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Word called
+2020-12-11 00:58:30,520 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,520 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,520 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,520 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,520 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,520 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,521 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,521 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,521 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,521 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,521 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,521 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,521 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,521 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,521 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Word called
+2020-12-11 00:58:30,521 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,522 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,522 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,522 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,522 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,522 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,522 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,522 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,522 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,522 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,522 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,522 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,523 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,523 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,523 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,523 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,523 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,523 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,523 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,523 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,523 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,523 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,523 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,524 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,524 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,524 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,524 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,524 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,524 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,525 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,526 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,526 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,526 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,526 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Word called
+2020-12-11 00:58:30,526 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,526 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,526 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,526 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,526 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,526 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,526 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,527 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,527 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,527 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,527 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,527 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,527 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,527 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,527 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,527 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,527 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,527 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Word called
+2020-12-11 00:58:30,528 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,528 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,528 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,528 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,528 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,528 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,528 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,528 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,528 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,528 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,528 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,529 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,529 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,529 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,529 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Phoneme called
+2020-12-11 00:58:30,529 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,529 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,529 DEBUG comtypes._comobject Thread-3 : unimplemented method _ISpeechVoiceEvents_Viseme called
+2020-12-11 00:58:30,529 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,529 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.AddRef() -> 2
+2020-12-11 00:58:30,529 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 1
+2020-12-11 00:58:30,580 DEBUG comtypes Thread-3 : Release <POINTER(ISpeechVoice) ptr=0x204240b0b80 at 20423f3c340>
+2020-12-11 00:58:30,581 DEBUG comtypes._comobject Thread-3 : <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>.Release() -> 0
+2020-12-11 00:58:30,581 DEBUG comtypes._comobject Thread-3 : 0 active COM objects: Removed <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x0000020423A2FFA0>
+2020-12-11 00:58:30,581 DEBUG comtypes._comobject Thread-3 : Remaining: []
+2020-12-11 00:58:30,583 DEBUG comtypes Thread-3 : Release <POINTER(IConnectionPoint) ptr=0x204240b0b88 at 20423f3c540>
+2020-12-11 00:58:30,588 ERROR main Thread-3 : Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\olive\PycharmProjects\CA3\main.py", line 63, in schedule_event
+    alarm[:] = [x for x in alarms if x.get('title') != alarm_name]
+NameError: name 'alarm' is not defined
+2020-12-11 00:58:30,619 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 00:58:30] "[35m[1mGET /index?alarm_item=Dentist+ HTTP/1.1[0m" 500 -
+2020-12-11 00:59:00,301 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:59:00,463 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:59:00,469 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 00:59:00,521 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 00:59:00,525 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:59:00,659 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 00:59:00,666 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 00:59:00,767 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 00:59:00,776 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 00:59:00,942 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 00:59:01,026 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 00:59:03,170 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 00:59:03] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 00:59:13,155 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 00:59:13] "[37mGET /index?alarm=2020-12-11T01%3A03&two=hello HTTP/1.1[0m" 200 -
+2020-12-11 00:59:14,323 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 00:59:14] "[37mGET /index?alarm_item=hello HTTP/1.1[0m" 200 -
+2020-12-11 03:27:00,706 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:27:01,168 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:27:01,250 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:27:01,454 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:27:47,807 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:27:48,146 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:27:48,260 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:27:48,453 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:27:48,459 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:27:48,966 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=nation%3BEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 422 None
+2020-12-11 03:28:25,282 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:28:25,630 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:28:25,642 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:28:25,727 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:28:25,733 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:28:25,935 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=nation%3BEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 422 None
+2020-12-11 03:29:29,794 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:29:30,027 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:29:30,046 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:29:30,240 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:29:30,249 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:29:30,753 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=Nation%3BEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 422 None
+2020-12-11 03:31:35,851 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:31:36,094 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:31:36,104 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:31:36,295 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:31:36,304 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:31:36,714 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:31:36,731 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:31:37,528 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:31:37,547 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:31:37,835 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:31:37,877 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 03:31:43,709 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:31:44,082 DEBUG urllib3.connectionpool Thread-1 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:31:44,092 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:31:44,287 DEBUG urllib3.connectionpool Thread-1 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:31:44,294 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:31:44,503 DEBUG urllib3.connectionpool Thread-1 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:31:44,515 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:31:44,816 DEBUG urllib3.connectionpool Thread-1 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:31:44,886 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 03:31:44] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 03:32:03,215 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:32:03,637 DEBUG urllib3.connectionpool Thread-2 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:32:03,748 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:32:03,947 DEBUG urllib3.connectionpool Thread-2 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:32:03,954 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:04,275 DEBUG urllib3.connectionpool Thread-2 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:32:04,288 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:04,585 DEBUG urllib3.connectionpool Thread-2 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:32:04,628 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 03:32:04] "[37mGET /index?alarm=2020-12-11T03%3A33&two=Dentist+ HTTP/1.1[0m" 200 -
+2020-12-11 03:32:06,972 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:32:07,225 DEBUG urllib3.connectionpool Thread-3 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:32:07,238 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:32:07,323 DEBUG urllib3.connectionpool Thread-3 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:32:07,330 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:07,635 DEBUG urllib3.connectionpool Thread-3 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:32:07,646 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:07,958 DEBUG urllib3.connectionpool Thread-3 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:32:07,965 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 03:32:07] "[37mGET /index?alarm_item=Dentist+ HTTP/1.1[0m" 200 -
+2020-12-11 03:32:10,279 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:32:10,600 DEBUG urllib3.connectionpool Thread-4 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:32:10,613 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:32:11,008 DEBUG urllib3.connectionpool Thread-4 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:32:11,016 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:11,419 DEBUG urllib3.connectionpool Thread-4 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:32:11,431 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:11,749 DEBUG urllib3.connectionpool Thread-4 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:32:11,756 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2020 03:32:11] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 03:32:21,685 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:32:21,976 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:32:21,987 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:32:22,175 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:32:22,184 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:22,501 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:32:22,514 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:22,809 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:32:22,829 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:32:23,093 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:32:23,105 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 03:32:24,629 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:32:24,937 DEBUG urllib3.connectionpool Thread-1 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:32:25,049 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:32:25,245 DEBUG urllib3.connectionpool Thread-1 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:32:25,254 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:25,470 DEBUG urllib3.connectionpool Thread-1 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:32:25,485 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:25,858 DEBUG urllib3.connectionpool Thread-1 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:32:25,879 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 03:32:25] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 03:32:27,416 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:32:27,804 DEBUG urllib3.connectionpool Thread-2 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:32:27,916 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:32:28,110 DEBUG urllib3.connectionpool Thread-2 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:32:28,119 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:28,163 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:32:28,317 DEBUG urllib3.connectionpool Thread-2 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:32:28,331 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:28,419 DEBUG urllib3.connectionpool Thread-3 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:32:28,429 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:32:28,491 DEBUG urllib3.connectionpool Thread-3 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:32:28,497 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:28,573 DEBUG urllib3.connectionpool Thread-2 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:32:28,579 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 03:32:28] "[37mGET /index?notif=Disney+ramps+up+Star+Wars+and+Marvel+franchises+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 03:32:28,744 DEBUG urllib3.connectionpool Thread-3 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:32:28,758 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:29,032 DEBUG urllib3.connectionpool Thread-3 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:32:29,039 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 03:32:29] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 03:32:30,761 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:32:31,081 DEBUG urllib3.connectionpool Thread-4 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:32:31,191 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:32:31,388 DEBUG urllib3.connectionpool Thread-4 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:32:31,395 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:31,553 DEBUG urllib3.connectionpool Thread-5 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:32:31,637 DEBUG urllib3.connectionpool Thread-4 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:32:31,646 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:31,816 DEBUG urllib3.connectionpool Thread-5 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:32:31,819 DEBUG urllib3.connectionpool Thread-4 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:32:31,824 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2020 03:32:31] "[37mGET /index?notif=Disney+ramps+up+Star+Wars+and+Marvel+franchises+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 03:32:32,014 DEBUG urllib3.connectionpool Thread-5 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:32:32,206 DEBUG urllib3.connectionpool Thread-5 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:32:32,213 DEBUG urllib3.connectionpool Thread-5 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:32,535 DEBUG urllib3.connectionpool Thread-5 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:32:32,550 DEBUG urllib3.connectionpool Thread-5 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:32,686 DEBUG urllib3.connectionpool Thread-5 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:32:32,691 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Dec/2020 03:32:32] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 03:32:34,700 DEBUG urllib3.connectionpool Thread-6 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:32:35,011 DEBUG urllib3.connectionpool Thread-6 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:32:35,189 DEBUG urllib3.connectionpool Thread-6 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:32:35,280 DEBUG urllib3.connectionpool Thread-6 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:32:35,289 DEBUG urllib3.connectionpool Thread-6 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:35,610 DEBUG urllib3.connectionpool Thread-6 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:32:35,621 DEBUG urllib3.connectionpool Thread-6 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:32:35,810 DEBUG urllib3.connectionpool Thread-6 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:32:35,817 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Dec/2020 03:32:35] "[37mGET /index?notif=Disney+ramps+up+Star+Wars+and+Marvel+franchises+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 03:35:15,458 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:35:15,742 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:35:15,752 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:35:15,946 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:35:15,952 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:35:17,383 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:35:17,394 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:35:17,896 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:35:17,923 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:35:18,302 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:35:18,320 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 03:37:12,580 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:37:12,921 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:37:12,935 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:37:13,094 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:37:13,101 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:37:13,503 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:37:13,515 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:37:13,810 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:37:13,835 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 03:37:18,371 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 03:37:18] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 03:37:21,893 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 03:37:21] "[37mGET /index?notif=Disney+ramps+up+Star+Wars+and+Marvel+franchises+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 03:37:23,713 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 03:37:23] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 03:38:23,940 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2020 03:38:23] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:39:24,193 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Dec/2020 03:39:24] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:40:25,580 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Dec/2020 03:40:25] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:41:26,543 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Dec/2020 03:41:26] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:42:26,823 INFO werkzeug Thread-8 : 127.0.0.1 - - [11/Dec/2020 03:42:26] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:43:27,113 INFO werkzeug Thread-9 : 127.0.0.1 - - [11/Dec/2020 03:43:27] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:44:27,397 INFO werkzeug Thread-10 : 127.0.0.1 - - [11/Dec/2020 03:44:27] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:45:27,622 INFO werkzeug Thread-11 : 127.0.0.1 - - [11/Dec/2020 03:45:27] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:46:28,537 INFO werkzeug Thread-12 : 127.0.0.1 - - [11/Dec/2020 03:46:28] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:47:04,109 INFO werkzeug Thread-13 : 127.0.0.1 - - [11/Dec/2020 03:47:04] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:47:29,543 INFO werkzeug Thread-14 : 127.0.0.1 - - [11/Dec/2020 03:47:29] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:48:04,325 INFO werkzeug Thread-15 : 127.0.0.1 - - [11/Dec/2020 03:48:04] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:48:30,519 INFO werkzeug Thread-16 : 127.0.0.1 - - [11/Dec/2020 03:48:30] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:49:04,607 INFO werkzeug Thread-17 : 127.0.0.1 - - [11/Dec/2020 03:49:04] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:49:31,538 INFO werkzeug Thread-18 : 127.0.0.1 - - [11/Dec/2020 03:49:31] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:50:04,810 INFO werkzeug Thread-19 : 127.0.0.1 - - [11/Dec/2020 03:50:04] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:50:32,524 INFO werkzeug Thread-20 : 127.0.0.1 - - [11/Dec/2020 03:50:32] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:51:05,014 INFO werkzeug Thread-21 : 127.0.0.1 - - [11/Dec/2020 03:51:05] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:51:33,525 INFO werkzeug Thread-22 : 127.0.0.1 - - [11/Dec/2020 03:51:33] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:52:05,273 INFO werkzeug Thread-23 : 127.0.0.1 - - [11/Dec/2020 03:52:05] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:53:04,195 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:53:04,514 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:53:04,613 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:53:04,811 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:53:04,817 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:53:05,222 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:53:05,232 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:53:05,734 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:53:55,484 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:53:55,808 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:53:55,821 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:53:56,010 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:53:56,018 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:53:56,442 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:53:56,454 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:53:56,751 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:54:11,139 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:54:11,371 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:54:11,431 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:54:11,577 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:54:11,588 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:54:11,804 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:54:11,816 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:54:12,089 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:54:31,473 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 03:54:34,793 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 03:54:34] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:54:37,805 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 03:54:37] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 03:55:37,973 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 03:55:37] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 03:55:48,545 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:55:48,755 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:55:48,769 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:55:48,960 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:55:48,965 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:55:49,267 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:55:49,278 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:55:49,783 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:55:49,807 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 03:55:53,450 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 03:55:53] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 03:56:42,476 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 03:56:42] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 03:56:56,208 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 03:56:56] "[37mGET /index?alarm=2020-12-11T03%3A57&two=hello HTTP/1.1[0m" 200 -
+2020-12-11 03:57:38,898 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:57:39,159 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:57:39,168 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:57:39,246 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:57:39,252 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:57:39,554 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:57:39,569 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:57:40,167 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:57:40,187 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:57:40,499 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:57:40,513 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:57:40,683 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:57:40,691 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:57:41,009 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:57:41,021 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:57:41,200 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:57:41,209 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 03:57:45,064 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 03:57:45] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 03:57:48,130 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 03:57:48] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 03:57:50,277 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 03:57:50] "[37mGET /index?notif=COVID-19%3A+Pfizer+vaccine+recommended+for+approval+by+US+government+advisory+panel+-+Sky+News HTTP/1.1[0m" 200 -
+2020-12-11 03:58:06,399 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:58:06,799 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:58:06,816 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:58:06,998 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:58:07,005 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:58:07,223 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:58:07,236 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:58:07,509 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:58:07,527 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 03:58:07,816 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 03:58:07,825 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 03:58:08,020 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 03:58:08,026 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:58:08,349 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 03:58:08,358 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 03:58:08,655 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 03:58:08,667 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 03:58:08,773 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 03:58:08] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 03:58:10,791 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 03:58:10] "[37mGET /index?notif=Disney+ramps+up+Star+Wars+and+Marvel+franchises+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 03:58:12,000 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 03:58:12] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 03:58:13,177 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2020 03:58:13] "[37mGET /index?notif=COVID-19%3A+Pfizer+vaccine+recommended+for+approval+by+US+government+advisory+panel+-+Sky+News HTTP/1.1[0m" 200 -
+2020-12-11 03:59:13,442 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Dec/2020 03:59:13] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 04:00:13,704 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Dec/2020 04:00:13] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 04:01:29,051 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:01:29,312 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:01:29,322 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:01:29,443 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 04:01:29,449 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:01:29,959 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:01:29,971 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:01:30,374 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:01:30,396 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:01:30,775 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:01:30,889 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:01:31,082 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 04:01:31,088 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:01:31,309 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:01:31,323 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:01:31,584 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:01:31,597 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 04:01:36,014 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 04:01:36] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 04:01:39,040 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 04:01:39] "[37mGET /index?notif=Disney+ramps+up+Star+Wars+and+Marvel+franchises+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 04:01:41,403 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 04:01:41] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 04:02:02,006 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2020 04:02:02] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 04:02:59,920 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:03:00,276 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:03:00,286 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:03:00,478 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 04:03:00,487 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:03:00,787 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:03:00,798 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:03:01,195 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:03:01,214 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:03:01,503 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:03:01,615 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:03:01,742 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 467
+2020-12-11 04:03:01,748 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:03:02,040 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:03:02,051 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:03:02,243 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:05:27,923 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:05:28,238 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:05:28,248 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:05:28,325 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 476
+2020-12-11 04:05:28,331 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:05:28,859 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:05:28,870 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:05:29,165 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:05:29,189 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:05:29,385 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:05:29,395 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:05:29,574 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 476
+2020-12-11 04:05:29,585 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:05:29,912 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:05:29,927 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:05:30,196 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:07:13,331 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:07:13,616 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:07:13,630 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:07:13,822 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 476
+2020-12-11 04:07:13,830 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:07:14,126 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:07:14,142 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:07:14,843 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:07:14,865 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:07:15,257 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:07:15,277 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:12:29,849 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:12:30,169 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:12:30,183 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:12:30,439 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 476
+2020-12-11 04:12:30,447 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:12:30,956 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:12:30,967 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:12:31,387 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:12:31,411 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 04:13:06,537 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:13:06,898 DEBUG urllib3.connectionpool Thread-1 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:13:06,922 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:13:07,103 DEBUG urllib3.connectionpool Thread-1 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 476
+2020-12-11 04:13:07,109 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:13:07,329 DEBUG urllib3.connectionpool Thread-1 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:13:07,341 DEBUG urllib3.connectionpool Thread-1 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:13:07,635 DEBUG urllib3.connectionpool Thread-1 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:13:07,659 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 04:13:07] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 04:13:10,973 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:13:11,202 DEBUG urllib3.connectionpool Thread-2 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:13:11,213 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:13:11,404 DEBUG urllib3.connectionpool Thread-2 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 476
+2020-12-11 04:13:11,411 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:13:11,634 DEBUG urllib3.connectionpool Thread-2 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:13:11,648 DEBUG urllib3.connectionpool Thread-2 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:13:11,936 DEBUG urllib3.connectionpool Thread-2 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:13:11,944 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 04:13:11] "[37mGET /index?notif=Disney+ramps+up+Star+Wars+and+Marvel+franchises+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 04:13:17,251 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:13:17,651 DEBUG urllib3.connectionpool Thread-3 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:13:17,664 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:13:17,855 DEBUG urllib3.connectionpool Thread-3 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 476
+2020-12-11 04:13:17,863 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:13:18,162 DEBUG urllib3.connectionpool Thread-3 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:13:18,169 DEBUG urllib3.connectionpool Thread-3 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:13:18,367 DEBUG urllib3.connectionpool Thread-3 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:13:18,373 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 04:13:18] "[37mGET /index?notif=Disney+ramps+up+Star+Wars+and+Marvel+franchises+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 04:13:20,409 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:13:20,723 DEBUG urllib3.connectionpool Thread-4 : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:13:20,835 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:13:21,033 DEBUG urllib3.connectionpool Thread-4 : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 476
+2020-12-11 04:13:21,041 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:13:21,358 DEBUG urllib3.connectionpool Thread-4 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:13:21,372 DEBUG urllib3.connectionpool Thread-4 : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:13:21,647 DEBUG urllib3.connectionpool Thread-4 : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:13:21,653 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2020 04:13:21] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 04:18:18,722 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:18:19,118 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:18:19,243 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:18:19,425 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 04:18:19,433 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:18:19,843 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:18:19,855 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:18:20,348 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:21:31,831 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:21:33,067 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:21:33,079 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:21:33,271 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 04:21:33,277 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:21:33,788 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:21:33,805 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:21:34,192 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:21:34,253 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 04:21:39,849 ERROR main Thread-1 : Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\olive\PycharmProjects\CA3\main.py", line 47, in hello
+    return render_template('template.html',notifications=notifications,
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\olive\PycharmProjects\CA3\templates\template.html", line 78, in top-level template code
+    {% for notification in notifications: %}
+TypeError: 'function' object is not iterable
+2020-12-11 04:21:39,873 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 04:21:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2020-12-11 04:21:49,294 ERROR main Thread-2 : Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\olive\PycharmProjects\CA3\main.py", line 47, in hello
+    return render_template('template.html',notifications=notifications,
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\olive\PycharmProjects\CA3\templates\template.html", line 78, in top-level template code
+    {% for notification in notifications: %}
+TypeError: 'function' object is not iterable
+2020-12-11 04:21:49,295 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 04:21:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2020-12-11 04:21:50,745 ERROR main Thread-3 : Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\olive\PycharmProjects\CA3\main.py", line 47, in hello
+    return render_template('template.html',notifications=notifications,
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\olive\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\olive\PycharmProjects\CA3\templates\template.html", line 78, in top-level template code
+    {% for notification in notifications: %}
+TypeError: 'function' object is not iterable
+2020-12-11 04:21:50,749 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 04:21:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2020-12-11 04:22:59,854 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:23:00,210 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:23:00,321 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:23:00,501 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 04:23:00,509 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:23:00,743 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:23:00,756 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:23:01,049 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:23:01,072 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 04:23:03,496 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 04:23:03] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 04:23:05,953 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 04:23:05] "[37mGET /index?notif=Disney+ramps+up+Star+Wars+and+Marvel+franchises+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 04:23:07,467 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 04:23:07] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 04:23:09,683 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2020 04:23:09] "[37mGET /index?notif=COVID-19%3A+Pfizer+vaccine+recommended+for+approval+by+US+government+advisory+panel+-+Sky+News HTTP/1.1[0m" 200 -
+2020-12-11 04:23:10,772 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Dec/2020 04:23:10] "[37mGET /index?notif=Coronavirus%3A+Trump+hosts+Hanukkah+events+as+Covid-19+deaths+soar+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 04:23:18,058 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Dec/2020 04:23:18] "[37mGET /index?notif=Covid-19+tests+for+secondary+school+pupils+in+parts+of+London%2C+Kent+and+Essex+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 04:23:31,773 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Dec/2020 04:23:31] "[37mGET /index?notif=Covid-19+tests+for+secondary+school+pupils+in+parts+of+London%2C+Kent+and+Essex+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 04:23:47,789 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:23:48,235 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:23:48,246 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:23:48,337 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 04:23:48,343 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:23:48,646 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:23:48,660 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:23:48,961 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:23:48,983 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 04:23:52,558 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 04:23:52] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 04:23:55,565 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 04:23:55] "[37mGET /index?notif=Disney+ramps+up+Star+Wars+and+Marvel+franchises+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 04:24:32,000 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 04:24:32] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 04:24:36,412 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2020 04:24:36] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 04:24:37,359 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Dec/2020 04:24:37] "[37mGET /index?notif=COVID-19%3A+Pfizer+vaccine+recommended+for+approval+by+US+government+advisory+panel+-+Sky+News HTTP/1.1[0m" 200 -
+2020-12-11 04:25:32,526 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Dec/2020 04:25:32] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 04:25:37,561 INFO werkzeug Thread-7 : 127.0.0.1 - - [11/Dec/2020 04:25:37] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 04:26:28,210 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:26:28,500 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:26:28,515 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:26:28,698 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 04:26:28,707 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:26:29,112 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:26:29,124 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:26:29,601 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:26:29,627 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-12-11 04:26:32,717 INFO werkzeug Thread-1 : 127.0.0.1 - - [11/Dec/2020 04:26:32] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-11 04:26:33,527 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Dec/2020 04:26:33] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 04:26:34,883 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Dec/2020 04:26:34] "[37mGET /index?notif=Disney+ramps+up+Star+Wars+and+Marvel+franchises+-+BBC+News HTTP/1.1[0m" 200 -
+2020-12-11 04:26:38,774 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Dec/2020 04:26:38] "[37mGET /index?notif=Kay+Burley+suspended+from+Sky+News+for+six+months+after+coronavirus+breach+-+The+Independent HTTP/1.1[0m" 200 -
+2020-12-11 04:27:38,984 INFO werkzeug Thread-5 : 127.0.0.1 - - [11/Dec/2020 04:27:38] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 04:28:39,526 INFO werkzeug Thread-6 : 127.0.0.1 - - [11/Dec/2020 04:28:39] "[37mGET /index HTTP/1.1[0m" 200 -
+2020-12-11 04:29:03,002 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:29:03,345 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:29:03,357 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:29:03,529 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 04:29:03,535 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:29:03,938 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:29:03,950 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:29:04,348 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:29:24,234 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:29:24,883 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:29:24,938 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:29:25,135 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 04:29:25,142 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:29:25,463 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:29:25,477 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:29:25,608 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:29:47,073 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:29:47,357 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:29:47,368 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:29:47,566 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 04:29:47,573 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:29:47,889 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:29:47,902 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:29:48,199 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:30:02,854 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): newsapi.org:443
+2020-12-11 04:30:03,126 DEBUG urllib3.connectionpool MainThread : https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=54556da7367749bebb4d78fe571dd65a HTTP/1.1" 200 None
+2020-12-11 04:30:03,236 DEBUG urllib3.connectionpool MainThread : Starting new HTTP connection (1): api.openweathermap.org:80
+2020-12-11 04:30:04,764 DEBUG urllib3.connectionpool MainThread : http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Exeter&appid=25254f9ebb67e1cd28480d0af0cbe238 HTTP/1.1" 200 468
+2020-12-11 04:30:04,772 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:30:05,096 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2020-12-11 04:30:05,108 DEBUG urllib3.connectionpool MainThread : Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2020-12-11 04:30:05,405 DEBUG urllib3.connectionpool MainThread : https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeathsByDeathDate%22%3A%22newDeathsByDeathDate%22%2C%22cumDeathsByDeathDate%22%3A%22cumDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2020-12-11 04:30:05,427 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
