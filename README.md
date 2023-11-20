@@ -12,6 +12,7 @@ This is a python based news web application. The project has a python backend, a
 ## Acknowledegments
 Here are some key links to explore:
  - [COVID Data API](https://covidtracking.com/data/api)
+ - [Weather API](https://openweathermap.org/api)
 
 
 ## Authors
